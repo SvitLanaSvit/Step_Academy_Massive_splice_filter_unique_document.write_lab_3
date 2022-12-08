@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script/script.js"></script>
+    <script>
+        console.log('-----------1----------');
+        showArray(arr1);
+        console.log('-----even-----');
+        showEvenElemOfArray(arr1);
+        console.log('-----sum------');
+        console.log(`sum = ${showSumElemOfArray(arr1)}`);
+        console.log('------max-----');
+        console.log(`max = ${getMaxElemOfArray(arr1)}`);
+        console.log('---put value--');
+        console.log(putElemIntoArrayWithIndex(arr1, 5));
+        console.log('-delete value-');
+        console.log(deleteElemIntoArrayWithIndex(arr1, 8));
+
+        console.log('-----------2----------');
+        console.log('-concst with unique-');
+        console.log(concatArrays(arr1, arr2));
+        console.log('-unique repeat elem-');
+        console.log(arr1);
+        console.log(arr2);
+        console.log(getArrayWithRepeatElemInArrays(arr1, arr2));
+        console.log('-all elem from arr1 not exists in arr2-');
+        console.log(getArrayElemFromArray1NotExistInArra2(arr1,arr2));
+
+        console.log('-----------3----------');
+        console.log(arrFruit);
+        showWithDocumentWrite(arrFruit);
+        console.log('--index of str--');
+        console.log(isFruitInArrFruit("PEACHE"));
+    </script>
+</body>
+</html>
