@@ -4,3 +4,4 @@
 ## All elements don`t repeat in other massive
 ## filter methode
 ## splice methode
+## document.write methode
